@@ -10,6 +10,13 @@ public class Main {
         PacmanBoard board = new PacmanBoard();
         f.add(board);
 
+        PacmanGhost ghost = new PacmanGhost();
+
+        Pacman pacman = new Pacman();
+
+        PacmanControls controls = new PacmanControls();
+
+
             f.repaint();
     }
 }

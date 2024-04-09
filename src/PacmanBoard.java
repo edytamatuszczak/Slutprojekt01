@@ -2,9 +2,9 @@ import java.awt.*;
 import javax.swing.JPanel;
 
 public class PacmanBoard extends JPanel {
-    private final int WIDTH = 23; // Antal kolumner
-    private final int HEIGHT = 22; // Antal rader
-    private final int CELL_SIZE = 26; // Storlek på varje cell
+    private final int WIDTH = 30; // Antal kolumner
+    private final int HEIGHT = 29; // Antal rader
+    private final int CELL_SIZE = 20; // Storlek på varje cell
 
     private int[][] board; // Tvådimensionell array för att representera spelplanen
 
